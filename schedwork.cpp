@@ -1,5 +1,3 @@
-
-
 #include <set>
 #include <iostream>
 #include <fstream>
@@ -23,6 +21,8 @@ static const Worker_T INVALID_ID = (unsigned int)-1;
 
 // Add your implementation of schedule() and other helper functions here
 
+
+
 bool schedule(
     const AvailabilityMatrix& avail,
     const size_t dailyNeed,
@@ -35,9 +35,6 @@ bool schedule(
     }
     sched.clear();
     // Add your code below
-
-
-
 
 }
 
